@@ -24,7 +24,7 @@ def delete_artist(library, artist)
   return library 
 end
 
-delete_artist
+delete_artist(library, :artist)
 
 hash = {:shania => "That Don't Impress Me Much", :snoop => "Gin and Juice"}
 
